@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "ka0824's blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog of ka0824",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ka Hyung Kim <rkgud0824@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ka0824.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^4.15.2",
@@ -33,9 +33,11 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "gatsby-post-gen": "^1.0.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.6.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/ka0824.github.io",
   "keywords": [
     "gatsby"
   ],
@@ -51,6 +53,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "create": "gatsby-post-gen",
+    "deploy": "gatsby build && gh-pages -d public -b deploy"
   }
 }
