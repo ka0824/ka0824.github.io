@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 06 Jun 2022 13:13:49 GMT</lastBuildDate><item><title><![CDATA[22.06.06 TIL]]></title><description><![CDATA[학습내용 typescript, redux-toolkit 지금까지는 typescript를 사용하지 않았고, redux 역시 redux-actions…]]></description><link>https://ka0824.github.io/TIL/22.06.06-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/22.06.06-til/</guid><pubDate>Mon, 06 Jun 2022 22:07:26 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jun 2022 14:08:34 GMT</lastBuildDate><item><title><![CDATA[IP 인터넷 프로토콜]]></title><description><![CDATA[학습 내용 입니다. IP : 인터넷 프로토콜의 약자입니다. 인터넷 상에서 각 컴퓨터의 주소 역할을 합니다. 패킷을 통해 데이터를 주고 받습니다. 패킷에는 송신자의 IP, 수신자의 IP…]]></description><link>https://ka0824.github.io/network/ip-인터넷-프로토콜/</link><guid isPermaLink="false">https://ka0824.github.io/network/ip-인터넷-프로토콜/</guid><pubDate>Tue, 07 Jun 2022 22:07:29 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h2&gt;학습 내용 입니다.&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;IP : 인터넷 프로토콜의 약자입니다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;인터넷 상에서 각 컴퓨터의 주소 역할을 합니다.&lt;/li&gt;
+&lt;li&gt;패킷을 통해 데이터를 주고 받습니다.&lt;/li&gt;
+&lt;li&gt;패킷에는 송신자의 IP, 수신자의 IP, 보내는 데이터 등이 담깁니다.&lt;/li&gt;
+&lt;li&gt;그러나 패킷을 통한 통신에는 세가지 문제점이 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;패킷 통신의 세가지 문제점입니다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;비연결성: 데이터를 송신할 IP가 유효하지 않거나 수신 받을 수 없는 상태여도 확인이 불가능합니다.&lt;/li&gt;
+&lt;li&gt;비신뢰성: 보내고자 하는 데이터의 크기가 커 여러 패킷으로 나누어 보냈을 경우, 순서를 보장할 수 없습니다.&lt;/li&gt;
+&lt;li&gt;프로그램 구분: 수신 IP에서 여러 프로그램을 사용하고 있을 경우, 어디로 데이터를 보내야 하는지 알 수 없습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;패킷 통신의 문제점을 해결을 위해 TCP가 도입되었습니다.&lt;/h3&gt;
+&lt;br/&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;간단 개념 정리입니다.&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;IP: 인터넷 상에서 각 컴퓨터의 주소 입니다.&lt;/li&gt;
+&lt;li&gt;패킷: 송/수신자의 IP, 데이터가 담겨 있습니다. 일종의 택배박스로 비유할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2022.06.07-TIL]]></title><description><![CDATA[학습내용 IP 취업 전에 급하게 읽느라 부랴부랴 외우기만 했던 개념들을 이제는 조금 여유를 가지고 살펴보았다. IP는 컴퓨터의 주소라는 것은
+알고 있었지만, 딱 거기까지만 이었다. 이해한 바에 따르면 IP…]]></description><link>https://ka0824.github.io/TIL/2022.06.07-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.07-til/</guid><pubDate>Tue, 07 Jun 2022 22:06:29 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h2&gt;학습내용&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;IP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;취업 전에 급하게 읽느라 부랴부랴 외우기만 했던 개념들을 이제는 조금 여유를 가지고 살펴보았다. IP는 컴퓨터의 주소라는 것은
+알고 있었지만, 딱 거기까지만 이었다. 이해한 바에 따르면 IP는 기본적으로 패킷을 이용한 통신을 하며, 패킷 통신은 보내는 사람의 IP,
+받는 사람의 IP, 그리고 보내고자 하는 데이터를 담아 보내는 것이다. 하지만 이러한 방식은 택배와 비슷하다. 우선, 택배 아저씨가 해당 주소에
+도착하기 전 까지는, 실제로 그 집에 사람이 살고 있는지 확인할 수도 없다. 그리고 내가 스위치와, 게임팩을 차례대로 주문했을 지라도, 서로 다른 택배를 이용한다면, 의도치않게 게임팩이 덩그러니 먼저 배달될 수도 있는 것이다. 이러한 점들을 보완하기 위해 TCP를 이용하게 되었다는데, 그 내용은
+내일 지하철에서 공부할 예정이다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;느낀점&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;지하철에서 공부하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;오늘의 학습은 아침 지하철에서 인강을 들으며 정리하였는데, 지하철 소리가 은근 커서 소리가 잘 안들린다는 단점이 있다. 그렇다고 계속 소리를 키우자니 이어폰을 꼽고 있는 내 귀가 걱정된다. 가장 좋은 건 텍스트로 보며 공부하는 것 이겠지만, 그렇게 하기엔 하루 3시간이나 되는 통근 시간에 읽기만 하는 건 너무 지루할 것 같다. 지하철 내에서는 어떻게 시간을 보낼지를 고민해 봐야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[22.06.06 TIL]]></title><description><![CDATA[학습내용 typescript, redux-toolkit 지금까지는 typescript를 사용하지 않았고, redux 역시 redux-actions…]]></description><link>https://ka0824.github.io/TIL/22.06.06-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/22.06.06-til/</guid><pubDate>Mon, 06 Jun 2022 22:07:26 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h2&gt;학습내용&lt;/h2&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
