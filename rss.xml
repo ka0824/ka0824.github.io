@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Jun 2022 14:35:57 GMT</lastBuildDate><item><title><![CDATA[2022.06.08-TIL]]></title><description><![CDATA[학습내용 useState…]]></description><link>https://ka0824.github.io/TIL/2022.06.08-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.08-til/</guid><pubDate>Wed, 08 Jun 2022 23:06:58 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Jun 2022 14:39:03 GMT</lastBuildDate><item><title><![CDATA[2022.06.08-TIL]]></title><description><![CDATA[학습내용 useState…]]></description><link>https://ka0824.github.io/TIL/2022.06.08-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.08-til/</guid><pubDate>Wed, 08 Jun 2022 23:06:58 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h2&gt;학습내용&lt;/h2&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;useState 훅 직접 만들어보기
-너무도 당연하게 사용하던 훅에 대해 궁금해져서 실제로 만들어보게 되었다. 비록 완전한 형태로 만들지는 못했지만, 랜더링은 어떻게
+&lt;li&gt;
+&lt;p&gt;useState 훅 직접 만들어보기&lt;/p&gt;
+&lt;p&gt;너무도 당연하게 사용하던 훅에 대해 궁금해져서 실제로 만들어보게 되었다. 비록 완전한 형태로 만들지는 못했지만, 랜더링은 어떻게
 이루어 지는가에 대한 새로운 의문이 생겼다. 직접 훅을 만들어보는 과정에서, 값을 저장하는 것까지는 어렵지 않았다. 하지만 리액트에서
 그렇게 중요하다고 여겨지는 state 변경에 따른 리랜더링을 직접 구현하는 것이 굉장히 어려웠다. 결국 리랜더링을 하기 위해 이곳, 저곳에서
 코드를 빌려와 짜집기 해올 수 밖에 없었다. 또한 재랜더링을 구현하고 나니, 값의 변화가 계속 초기화 되버리는 상황에서, 새삼 변수의 위치에
-대해 다시금 생각해 보게 되었다. 이것저것 하다보니 크게 한 일도 없이 벌써 자야 할 시간이 되버렸지만, 조금은 심화 수업을 해본 것 같은 느낌이 든 터라 나름 재밌었다.&lt;/li&gt;
+대해 다시금 생각해 보게 되었다. 이것저것 하다보니 크게 한 일도 없이 벌써 자야 할 시간이 되버렸지만, 조금은 심화 수업을 해본 것 같은 느낌이 든 터라 나름 재밌었다.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[useState 만들어보기]]></title><description><![CDATA[학습내용 문득 평소 사용하고 있는 useState가 어떻게 구성되어 있을지 궁금해져서 직접 만들어 보려 하였다. 우선 useState의 형태를 생각하면 만들어 본 코드이다. 평소 사용하듯이 input…]]></description><link>https://ka0824.github.io/react/usestate-만들어보기/</link><guid isPermaLink="false">https://ka0824.github.io/react/usestate-만들어보기/</guid><pubDate>Wed, 08 Jun 2022 22:07:35 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h2&gt;학습내용&lt;/h2&gt;
 &lt;/blockquote&gt;
