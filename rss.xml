@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Jun 2022 14:45:30 GMT</lastBuildDate><item><title><![CDATA[2022.06.08-TIL]]></title><description><![CDATA[학습내용 useState…]]></description><link>https://ka0824.github.io/TIL/2022.06.08-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.08-til/</guid><pubDate>Wed, 08 Jun 2022 23:06:58 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 13 Jun 2022 14:48:56 GMT</lastBuildDate><item><title><![CDATA[2022.06.13-til]]></title><description><![CDATA[학습내용 시맨틱 태그 인프런 애플 사이트 클론 코딩 인터넷 강의 현재 회사에서 클론 코딩을 진행하면서, 너무 div 태그를 남발하고 있지 않나하는 생각이 들었다.
+사실상 button, input 태그를 제외하면 모두 div…]]></description><link>https://ka0824.github.io/TIL/2022.06.13-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.13-til/</guid><pubDate>Mon, 13 Jun 2022 23:07:22 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h3&gt;학습내용&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;시맨틱 태그&lt;/li&gt;
+&lt;li&gt;인프런 애플 사이트 클론 코딩 인터넷 강의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;현재 회사에서 클론 코딩을 진행하면서, 너무 div 태그를 남발하고 있지 않나하는 생각이 들었다.
+사실상 button, input 태그를 제외하면 모두 div로 사용하고 있다. 모든 걸 div로 만들다 보니
+styled-component로 이름을 아무거나 넣었다가 적당한 이름은 이미 사용해버려 별 상관도 없는 이름을
+마구 잡이로 붙이게 된다. 지금까지는 뒤에 -wrapper만 붙이는 식으로 사용해서 이름을 다양하게 짓기 어려웠지만,
+시맨틱 태그를 이용한다면 이름의 중복 문제를 어느정도 해결할 수 있을 것으로 보인다.
+애플 클론 코딩을 강의를 듣기 시작한 이유는, 첫째로, 현재 하고있는 회사 클론 코딩은 디자인이 다소 단순하다. 뭔가
+바꿔보고는 싶은데 디자인 감각이 없다보니 어떻게 바꿔야 할지 조차 감이 오지 않는다. 마침, 애플 사이트는 디자인을
+참고하기에 아주 좋은 사이트라 하니, 감각도 길러볼 겸 시작하게 되었다.
+둘째, css의 기능을 아주 제한적으로 사용하고 있지 않나 하는 생각이 들었다. css에 대한 강의는 따로 들어본 적 없이,
+필요한 기능만 그때그때 검색하다보니, 유용한 기능은 무엇이 있는 지 알아보는 시간이 필요하다고 느껴졌다. 멋드러진 사이트를
+구성하기 위해서는 css의 어떤 기능들을 사용하는지 알게 될 기회가 될거라 생각한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;하루 간단 정리 입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;시맨틱 태그
+검색엔진 최적화, 유지/보수 용이의 이점이 있다.
+article은 독립적이며, section은 연관된 내용을 묶어주는 역할이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;클론 코딩
+margin 속성을 auto로 하면 최대 값을 가진다.
+html에서 lorem을 사용하면 랜덤 텍스트가 채워진다. ex)lorem200&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[시맨틱 태그]]></title><description><![CDATA[선정이유 입니다. 현재 리액트로 레이아웃을 짤 때, 모든 태그를 div…]]></description><link>https://ka0824.github.io/css/시맨틱-태그/</link><guid isPermaLink="false">https://ka0824.github.io/css/시맨틱-태그/</guid><pubDate>Mon, 13 Jun 2022 23:06:48 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h2&gt;선정이유 입니다.&lt;/h2&gt;
+&lt;p&gt;현재 리액트로 레이아웃을 짤 때, 모든 태그를 div로 사용하고 있다.
+태그에 대한 고민을 할 필요가 없어, 만들 때는 편리하다. 하지만 큰 계획없이
+태그들을 뭉텅뭉텅 쌓아 놓다 보니 다른 사람들이 코드를 볼 때에는 복잡해 보이지
+않을까 하는 생각이 들었다. 지금은 나홀로 클론 코딩을 하니까 체감되지는 않지만,
+주니어 개발자의 나쁜 습관으로 자리 잡기 전에 초장부터 확실하게 해놔야겠다는 마음에서 정리하게 되었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;시맨틱 태그를 사용해야 하는 이유 입니다.&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;검색 엔진 최적화(SEO)를 위해서입니다.&lt;/li&gt;
+&lt;li&gt;유지 보수를 용이하게 하기 위해서 입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&gt; 두 가지 이유 모두 컨텐츠의 구성을 검색엔진 혹은 사람이 이해하기 쉽게 구성한다는 점에서 오는 이점이라고 할 수 있습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;학습 내용 입니다.&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;header : 브랜드 로고, 상단 메뉴 등을 포함합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;nav: 네비게이션의 준 말으로, 각 페이지로 이동하는 링크들의 집합을 가리킵니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;footer: 맨 하단에 위치하여, 제작자, 배포 날짜 등 부가적인 정보를 제공합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;main: 컨텐츠를 구성하는 영역의 가장 상위 태그 입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aside: 컨텐츠와는 직접적인 관계가 없는 내용이 들어 갑니다. 광고, 컨텐츠와 관련된 링크가 해당됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;article: 하나의 주제를 가지고 있는 태그 입니다. 각 article은 독립적인 내용을 가지고 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;section: 연관된 내용들이 모인 태그 입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2022.06.08-TIL]]></title><description><![CDATA[학습내용 useState…]]></description><link>https://ka0824.github.io/TIL/2022.06.08-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.08-til/</guid><pubDate>Wed, 08 Jun 2022 23:06:58 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h2&gt;학습내용&lt;/h2&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
