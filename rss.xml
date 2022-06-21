@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jun 2022 14:20:52 GMT</lastBuildDate><item><title><![CDATA[2022.06.20-TIL]]></title><description><![CDATA[학습 내용 입니다. 애플 웹사이트 인터랙션 클론 go.js 리액트로 다뤄보기(회사 업무) gojs를 사용한지 3일차 만에 사용법을 어느정도 감을 잡은 듯 하다. 그동안은 Binding…]]></description><link>https://ka0824.github.io/TIL/2022.06.20-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.20-til/</guid><pubDate>Mon, 20 Jun 2022 23:06:21 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jun 2022 14:23:12 GMT</lastBuildDate><item><title><![CDATA[2022.06.21-TIL]]></title><description><![CDATA[학습 내용 입니다. debounce, throttle 구현하기 (lodash 라이브러리 이용) throttle 이용해 메뉴 검색 기능 만들기 (회사 업무) 그동안 찔끔찔끔 건드리기만 하다가 클론 코딩에 새로운 기능도 추가해 볼 겸, debounce…]]></description><link>https://ka0824.github.io/TIL/2022.06.21-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.21-til/</guid><pubDate>Tue, 21 Jun 2022 23:07:19 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h3&gt;학습 내용 입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;debounce, throttle 구현하기 (lodash 라이브러리 이용)&lt;/li&gt;
+&lt;li&gt;throttle 이용해 메뉴 검색 기능 만들기 (회사 업무)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그동안 찔끔찔끔 건드리기만 하다가 클론 코딩에 새로운 기능도 추가해 볼 겸, debounce와 throttle 기능을 공부해 보았다. 굳이
+throttle을 이용하지 않아도 큰 성능 문제는 없을 것 같았지만, 이번 기회에 익숙해진다면, 이후 서버에서 데이터 받아올 때나, 재 랜더링
+횟수를 줄일 때에 조금이나마 도움이 되지 않을까 싶어 사용하였다. 처음에 lodash라이브러리를 깔아 debounce를 적용시켜 보려고 했는데,
+useCallback등을 사용하지 않으면, 오류가 나지도 않으면서 제대로 작동하지 않았다. 무슨무슨 이유가 있어, 리액트에서는 따로 과정을
+거쳐야 된다는데, 그 이유가 뭔지는 찾아보지 못(안)했다. 주말에 시간이 날 때에 이유를 천천히 찾아봐야 겠다. 또한 메뉴 검색 기능을
+구현할 때에, 특정 검색어에는 너무 많은 항목들이 나와서, 페이지로 나누어서 보여지도록 했다. 그동안 막연히 어떻게 하면 되겠다 생각만 하다가
+직접 구현해 보니, 좀 더 자신감이 생긴 듯 하다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;배운 내용 간단 정리 입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;debounce: 반복되는 이벤트 중, 맨 마지막 이벤트만 실행&lt;/li&gt;
+&lt;li&gt;throttle: 일정 주기를 설정하여, 이벤트가 계속해서 반복되더라도 해당 주기에만 이벤트 실행&lt;/li&gt;
+&lt;li&gt;react에서 lodash의 debounce, throttle 사용하기 : useCallback으로 감싸주기
+ex) const debounceInput = useCallback(debounce(setInputValue, 1000), []);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;이제 이건 할 수 있다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 페이지로 나누어서 보여주기&lt;/li&gt;
+&lt;li&gt;메뉴 검색 기능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;더 알아보고 싶다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;react에서 debounce와 throttle 바로 사용이 안되는 이유&lt;/li&gt;
+&lt;li&gt;debounce와 throttle 커스텀으로 만들기&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2022.06.20-TIL]]></title><description><![CDATA[학습 내용 입니다. 애플 웹사이트 인터랙션 클론 go.js 리액트로 다뤄보기(회사 업무) gojs를 사용한지 3일차 만에 사용법을 어느정도 감을 잡은 듯 하다. 그동안은 Binding…]]></description><link>https://ka0824.github.io/TIL/2022.06.20-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.20-til/</guid><pubDate>Mon, 20 Jun 2022 23:06:21 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h3&gt;학습 내용 입니다.&lt;/h3&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
