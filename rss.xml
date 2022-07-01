@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Jun 2022 15:00:24 GMT</lastBuildDate><item><title><![CDATA[2022.06.28-TIL]]></title><description><![CDATA[학습 내용 입니다. 상단에 스크롤 비율 표시하기 리덕스 사가 정리 어제에 이어 스크롤과 관련된 기능 하나를 구현해 보았다. window 객체도 이용하고 document…]]></description><link>https://ka0824.github.io/TIL/2022.06.28-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.28-til/</guid><pubDate>Tue, 28 Jun 2022 23:07:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Jul 2022 14:12:15 GMT</lastBuildDate><item><title><![CDATA[2022.07.01-TIL]]></title><description><![CDATA[학습 내용입니다. 드림코딩 포트폴리오 웹사이트 클론 코딩 (총 진행률 2…]]></description><link>https://ka0824.github.io/TIL/2022.07.01-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.07.01-til/</guid><pubDate>Fri, 01 Jul 2022 23:07:35 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h3&gt;학습 내용입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;드림코딩 포트폴리오 웹사이트 클론 코딩 (총 진행률 20%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;시작한 온라인 강의는 많지만, 다 마무리 하지도 못한 채, 또다시 새로운 강의를 듣기 시작했다. 요즘 회사에서 나에게 맡겨진 일이
+딱히 없기 때문에 하루하루 어떤 것을 공부할 지 나스스로 정해서 코드로 작성해보는 편인데, 내가 너무 주먹구구 식으로 코드를 짜고 있는
+건 아닐까 하는 생각이 들었다. 또한 짜는 코드도 리액트에서의 상태 관리, 약간의 css만을 다루는게 반복되다 보니 이후엔 어떤 것들을
+손대야 할지가 참 막막했다. 코드 자체도 지난번에 만들었던 코드들을 다시 복사해와 써넣기에 점점 더 무념무상이 되는 것 같기도 하다.
+그래서 이번 주말에는 부실한 뼈대에 괜히 마음만 급해 새로운 구조를 덕지덕지 올리기보다는 보수를 좀더 잘해보자는 마음으로 바닐라 자바스크립트로
+웹 사이트를 만들고, 다른 사람들은 css를 어떻게 다루는지 감각을 배우려고 마음 먹었다. 사실 난 바닐라 자바스크립트로 웹사이트를 완성해 본적이 한번도
+없기 때문에, 이번 기회에 리액트 없이 자바스크립트에 대한 이해를 좀 더 할 수 있는 좋은 기회가 될거라 본다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3&gt;하루 간단 정리입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;html에서 스크립트 삽입할 때 주의해야 할 점
+&lt;ul&gt;
+&lt;li&gt;script 내에 어떤 속성을 사용하느냐에 따라, 다운로드 시기, 실행 시기가 달라진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[2022.06.28-TIL]]></title><description><![CDATA[학습 내용 입니다. 상단에 스크롤 비율 표시하기 리덕스 사가 정리 어제에 이어 스크롤과 관련된 기능 하나를 구현해 보았다. window 객체도 이용하고 document…]]></description><link>https://ka0824.github.io/TIL/2022.06.28-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.06.28-til/</guid><pubDate>Tue, 28 Jun 2022 23:07:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h3&gt;학습 내용 입니다.&lt;/h3&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
