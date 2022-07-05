@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Jul 2022 14:28:08 GMT</lastBuildDate><item><title><![CDATA[2022.07.04-TIL]]></title><description><![CDATA[학습내용 입니다. vscode로 자바 실행하기 리액트로 윈도우 화면처럼 화면짜기 (회사) 현재 회사에서는 jquery…]]></description><link>https://ka0824.github.io/TIL/2022.07.04-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.07.04-til/</guid><pubDate>Mon, 04 Jul 2022 23:07:57 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[ka0824's study blog]]></description><link>https://ka0824.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Jul 2022 14:56:22 GMT</lastBuildDate><item><title><![CDATA[2022.07.06-TIL]]></title><description><![CDATA[학습 내용입니다. 리덕스로 모달 관리하기 (회사) 자바 자료형 공부 (배열까지) 그동안은 useState로 state값이 true냐 false…]]></description><link>https://ka0824.github.io/TIL/2022.07.06-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.07.06-til/</guid><pubDate>Tue, 05 Jul 2022 23:07:22 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;h3&gt;학습 내용입니다.&lt;/h3&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;리덕스로 모달 관리하기 (회사)&lt;/li&gt;
+&lt;li&gt;자바 자료형 공부 (배열까지)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그동안은 useState로 state값이 true냐 false냐에 따라 모달을 보여주는 방식으로 구현했었다. 하지만 그렇게 하다 보니 모달을 쓸 때마다
+그러한 useState를 쓰고, 또 컴포넌트 안에 모달 컴포넌트를 넣어주고 하는 게 여간 귀찮은게 아니었다. 페이지가 적지도 않은데, 각 페이지마다
+모달이 하나씩만 들어가도 무수한 반복을 하게 되니, 좀더 편한 방법이 없을까 고민하게 됐다. 그래서 리덕스 내에 열고자 하는 모달들을 배열 형태로 저장하고
+가장 상위의 컴포넌트에 해당 배열을 map으로 뿌려주면 어떨까 싶었다. action에 컴포넌트를 그대로 인자로 넣어서 그런지 콘솔 창에는 경고가 번쩍 했지만,
+제법 잘 돌아가는 듯 했다. 아이콘을 리덕스 상태 값에 저장했을 때는 ignorpaths에 설정만 추가하면 에러는 안 났었는데, initialState 자체에 컴포넌트를
+저장하는 것과, 액션으로 컴포넌트 값을 인자로 주는 건 또 다른 상황인가보다. 다만, 여러개 열린 모달창을 닫는 과정에서, 생각지도 않은 오류가 발생했다.
+각 모달창에 id 값을 준뒤, x 버튼을 누를 때 배열 내에서 해당 id를 가진 값을 filter 하도록 함수를 작성하였는데, 예상외로 id 값이 계속 변하는 현상이
+발생했다. 퇴근 때가 다되서야 발견을 해서, 따로 건드리지는 못했지만, 아마도 모달창을 map으로 렌더링할 때, key값을 안줘서 그런건가 싶은 생각이 든다. 만약 그렇다면 그동안은 사실 key 값을 왜 줘야 하는지 잘 이해가 안 갔었는데, 좋은 예시를 발견한 것이 아닐까?
+자바는 점프 투 자바 사이트를 통해 공부하기로 하였다. 회사 점심시간, 그리고 퇴근 시간을 합쳐 자료형을 조금 공부했다. 공부하면서 느낀 점은, 타입 스크립트를 사용하는 듯한 느낌이었다. 첫 언어가 자바스크립트이다 보니, 알아서 잘 처리 해주는 코드를 당연하게 생각했었는데, 미리미리 타입을 지정하면서
+써야하는 자바는 좀 신기하게 느껴졌다. 평일에는 자투리 시간에 틈틈히 보다가 주말에는 까막눈 자바 코딩이라도 해봐야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2022.07.04-TIL]]></title><description><![CDATA[학습내용 입니다. vscode로 자바 실행하기 (Hello world 출력하기) 리액트로 윈도우 화면처럼 화면짜기 (회사) 현재 회사에서는 jquery…]]></description><link>https://ka0824.github.io/TIL/2022.07.04-til/</link><guid isPermaLink="false">https://ka0824.github.io/TIL/2022.07.04-til/</guid><pubDate>Mon, 04 Jul 2022 23:07:57 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;h3&gt;학습내용 입니다.&lt;/h3&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;vscode로 자바 실행하기&lt;/li&gt;
+&lt;li&gt;vscode로 자바 실행하기 (Hello world 출력하기)&lt;/li&gt;
 &lt;li&gt;리액트로 윈도우 화면처럼 화면짜기 (회사)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;현재 회사에서는 jquery를 통해 웹사이트를 만들었고, 서버 역시 자바를 이용하기 때문에 사실 지금까지는 그냥 화면을 리액트로
