@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[102],{6086:function(e,t,a){a.r(t);t.default=()=>{const e=useStaticQuery("1194890049").allMarkdownRemark.distinct.map((e=>e.split("/").pop()));return React.createElement("ul",null,e.map(((e,t)=>React.createElement("li",{key:t},e))))}}}]);
-//# sourceMappingURL=component---src-templates-category-js-e969f94928677b682603.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[102],{6086:function(e,t,a){a.r(t);var r=a(7294),l=a(1883);t.default=()=>{const e=(0,l.useStaticQuery)("1194890049").allMarkdownRemark.distinct;return r.createElement("ul",null,e.map(((e,t)=>r.createElement("li",{key:t},e))))}}}]);
-//# sourceMappingURL=component---src-templates-category-js-ef0bfb23b6fdd96ec877.js.map
