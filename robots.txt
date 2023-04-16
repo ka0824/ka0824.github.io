@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://ka0824.github.io/sitemap-0.xml
+Host: https://ka0824.github.io
